@@ -944,6 +944,7 @@ PERPLEXITY_SEARCH_DESCRIPTION = (
     "This tool provides accurate, up-to-date information with source citations."
 )
 
+# TODO: Change this tool to use the new langchain-perplexity lib like langchain-openai
 @tool(description=PERPLEXITY_SEARCH_DESCRIPTION)
 async def perplexity_search(
     queries: List[str],
